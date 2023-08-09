@@ -1,4 +1,4 @@
-[← Back](index.md)
+[← Back](../index.md)
 
 # Gui Basics Tutorial
 *Tutorial by [Fagiano0](https://github.com/Fagiano0)*  
