@@ -1,3 +1,5 @@
+[← Back](index.md)
+
 # Gui Basics Tutorial
 *Tutorial by [Fagiano0](https://github.com/Fagiano0)*  
 In this tutorial you'll learn how to make a simple gui with a button that triggers code, while learning the basics in the process.

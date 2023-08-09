@@ -1,3 +1,2 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme
+title: Scrap Mechanic Modding Tutorials
+theme: jekyll-theme-cayman
