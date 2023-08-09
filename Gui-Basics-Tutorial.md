@@ -5,9 +5,9 @@
 In this tutorial you'll learn how to make a simple gui with a button that triggers code, while learning the basics in the process.
 
 ### CONTENTS:
-- Installing MyGui Editor
-- Creating a Basic Gui
-- Accessing Your Gui with Code
+- [Installing MyGui Editor](Gui-Basics-Tutorial#Installing-MyGui-Editor)
+- [Creating a Basic Gui](Gui-Basics-Tutorial#Creating-a-Basic-Gui)
+- [Accessing Your Gui with Code](Gui-Basics-Tutorial#Accessing-Your-Gui-with-Code)
 
 ## Installing MyGui Editor
 Before we can create our guis we're gonna need to install the MyGui editor.  
