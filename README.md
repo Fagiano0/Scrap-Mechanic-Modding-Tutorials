@@ -1,4 +1,3 @@
-theme: minimal
 # Scrap Mechanic Modding Tutorials
 Here you can find tutorials for different Scrap Mechanic modding topics.
 
