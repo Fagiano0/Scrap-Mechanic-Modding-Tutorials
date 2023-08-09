@@ -18,7 +18,9 @@ Once you've installed and unzipped it, open the `release` folder inside of it an
 ## Creating a Basic Gui
 Now that you've opened the editor, let's create a basic gui.
 On the right you will see there are multiple tabs, including `Widgets`, click it. The buttons here are used to select the type of widget you want to add, then to actually create it you have to click and drag your mouse inside of the gui (checkerboard pattern)   
-*<div style="background-color:rgba(0, 0, 0, .5)">**Note**: Some tabs like `Default`, `Other`, `SM BG Panels`, `SM Background`, etc. will only be visible if you expand the side panel.</div>*
+
+> ***Note**: Some tabs like `Default`, `Other`, `SM BG Panels`, `SM Background`, etc. will only be visible if you expand the side panel.*
+
 ![WidgetTab](Images/GuiBasicsTutorial/WidgetTab.png "Widget Tab")
 
 Again, for this tutorial we'll be making a gui with a button that triggers some code, so:
@@ -31,10 +33,12 @@ Again, for this tutorial we'll be making a gui with a button that triggers some 
 - Now let's give our button a different look by changing its `Skin` to whatever you want, in my case I chose `Active Button` but you can choose whichever skin you want.  
     ![MyButtonSkin](Images/GuiBasicsTutorial/MyButtonSkin.png) ![MyButtonSkinAndName](Images/GuiBasicsTutorial/MyButtonSkinAndName.png)
 - To add text to it, scroll down to the `TextBox Properties` and give it a `Caption` and `FontName`, the others are optional.  
-*<div style="background-color:rgba(0, 0, 0, .5)">**Note**: The game doesn't load all characters for some fonts, unloaded characters will appear as* `⌧`.</div>
+    > ***Note**: The game doesn't load all characters for some fonts, unloaded characters will appear as* `⌧`.
+
     ![MyButtonTextBoxProperties](Images/GuiBasicsTutorial/MyButtonTextBoxProperties.png)
 - Now that we're almost done switch back to the `Properties` tab and select one of the widgets you added, you'll see a `Position` property with a `pixels` button to the left of it, you can click it to change the position mode and repeat it for all your widgets.  
-    *<div style="background-color:rgba(0, 0, 0, .5)">**Note**: You can change the position mode of widgets from `pixels` to `%` anytime, sometimes working with widgets in `%` might be more difficult or lead to misalignments. It is recommended to make all your widgets' position modes `%` after you're done working on the gui. The `%` mode is needed to make guis work correctly with different screen resolutions</div>*
+    > ***Note**: You can change the position mode of widgets from `pixels` to `%` anytime, sometimes working with widgets in `%` might be more difficult or lead to misalignments. It is recommended to make all your widgets' position modes `%` after you're done working on the gui. The `%` mode is needed to make guis work correctly with different screen resolutions.*
+
     ![PositionModePixels](Images/GuiBasicsTutorial/PositionModePixels.png) ![PositionMode%](Images/GuiBasicsTutorial/PositionModePercent.png)
 - Great, now do `Ctrl`+`S` or press `File` and `Save` and navigate to your mod's folder, then save it somewhere in there. It is recommended to create a `Layouts` folder inside of the pre-existing `Gui` folder and save it there.
 
