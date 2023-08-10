@@ -8,6 +8,7 @@ In this tutorial you'll learn how to make a simple gui with a button that trigge
 - [Installing MyGui Editor](Gui-Basics#installing-mygui-editor)
 - [Creating a Basic Gui](Gui-Basics#creating-a-basic-gui)
 - [Accessing Your Gui with Code](Gui-Basics#accessing-your-gui-with-code)
+- [General Advice](Gui-Basics#general-advice)
 
 ## Installing MyGui Editor
 Before we can create our guis we're gonna need to install the MyGui editor.  
@@ -81,3 +82,9 @@ function MyPart:client_onInteract(character, state)
     end
 end
 ```
+
+## General Advice
+- You can press `Ctrl`+`T` to preview your gui in the editor.
+- The `.layout` files produced by MyGui are actually just `.xml` files, you can manually edit them, a useful use case is duplicating widgets.
+- Try to make your gui look *good* by avoiding the use of default MyGui skins or old sm skins and stretching widgets with skins that don't support it.
+- Don't use skins ending in `_Dark`, they don't work in-game.
