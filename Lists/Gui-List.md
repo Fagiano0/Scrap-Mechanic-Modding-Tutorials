@@ -1,0 +1,152 @@
+[← Back](../index.md)
+
+# Gui Items List
+*Written by [The Red Builder](https://github.com/TheRedBuilder)*  
+This list contains most gui things.
+
+### CONTENTS:
+- [Widget Types](Gui-List#widget-types)
+- [Lua Widget Types](Gui-List#lua-widget-types)
+- [Fonts](Gui-List#fonts)
+
+## Widget Types
+This list contains every widget available in Scrap Mechanic and its function.
+- Button 
+	- An interactive Widget  
+	- Button skins have 3 different states:
+		- Inactive
+		- Highlighted
+		- Active
+- Canvas
+	- Used for rendering Mesh Previews
+- ComboBox
+	- Gives you a dropdown box with rewriteable text options  
+	![WidgetTab](../Images/GuiWidgetList/AddItems.png "Items Interface")
+- DDContainer
+	- *Possibly Drag & Drop container?*
+	> ***Note**: Doesnt work yet.*
+- EditBox
+	- Fancier version of TextBox
+	- Supports better formatting and multiline
+	- Text can be edited ingame, unless ReadOnly  
+	![WidgetTab](../Images/GuiWidgetList/ReadOnly.png "ReadOnly Option")
+- ItemBox
+	- *Possibly related to Drag & Drop container?*
+	> ***Note**: Doesnt work yet.*
+- ListBox
+	- Lists all Items properties.  
+	![WidgetTab](../Images/GuiWidgetList/AddItems.png "Items Interface")
+- MenuBar
+	- Automatically creates buttons from its Item property
+	> ***Note**: Very limiting, lacks any SM-like skins. Mostly useless*
+- MenuListBox
+	- *???*
+- PopupMenu
+	- Automatically creates buttons from its Item property and adjusts its scale
+	- Clicking any option makes it disappear
+- ProgressBar
+	- Visualizes progression
+	- AutoTrack option works in Scrap Mechanic and makes it track infinitely  
+	![WidgetTab](../Images/GuiWidgetList/ProgressBar.png "ProgressBar Interface")
+	> ***Note**: It is impossible to set its position through Lua.*
+- ScrollBar
+	- Lets you scroll in its range  
+	![WidgetTab](../Images/GuiWidgetList/ProgressBar.png "ProgressBar Interface")
+	> ***Note**: You can only read its position from Lua.*
+- ScrollView
+	- Adds 2 Scrollbars, that let you move around its own viewport
+		- To set its size, use CanvasSize
+		> ***Note**: CanvasSize is in Pixels only*
+- ImageBox
+	- Can be used to display tiled images
+- TextBox
+	- Basic textbox
+	> ***Note**: More limiting than EditBox*
+- TabControl
+	- Widget with multiple tabs that player can switch between
+	- Can have different widgets on every page
+	- Pages are added from the Items property  
+	![WidgetTab](../Images/GuiWidgetList/AddItems.png "Items Interface")
+- Widget
+	- Dummy Widget that only shows its Skin
+- Window
+	- Dragabble window that can be resized, depending on the skin
+	> ***Note**: Only scales its viewport.*
+	
+## Lua Widget Types
+Contains every Widget, that must be created with Lua.
+- Lua Dropdown
+	- Works similarily to ListBox Widget, but better
+	- Creation:
+	```lua
+	self.gui:createDropDown("DropdownHost", "cl_myFunction", {"Option1","Option2"}) -- change self.gui to your created gui, change "DropdownHost" to the name of your Widget (Widget should be empty, with panelEmpty skin), change "cl_myFunction" to the name of the function that will receive its callback, fill in the table {"Option1","Option2"} with the option names, these are returned to the callback when player clicks them.
+	```
+- Lua Sliders
+	- Similar to ScrollBar Widget, but with improved functionality, at the cost of more skins
+	- Creation:
+	```lua
+	-- for horizontal slider, do:
+	self.gui:createHorizontalSlider("SliderHost", 100, 50, "cl_myFunction", true) -- change self.gui to your created gui, change "SliderHost" to the name of your Widget (Widget should be empty, with panelEmpty skin), change "cl_myFunction" to the name of the function that will receive its callback, change the first number (100) to the maximal value of the slider and the other number (50) to its starting value, the boolean (true) controls if the slider should be numbered
+	
+	-- for vertical slider, do:
+	self.gui:createVerticalSlider("SliderHost", 100, 50, "cl_myFunction") -- change self.gui to your created gui, change "SliderHost" to the name of your Widget (Widget should be empty, with panelEmpty skin), change "cl_myFunction" to the name of the function that will receive its callback, change the first number (100) to the maximal value of the slider and the other number (50) to its starting value
+	```
+
+## Fonts
+All the fonts available including their supported characters
+- SM_Header
+	- Supports all characters.
+- SM_ItemTitle
+	- Supports all characters.
+- SM_TextTiny
+	- Supports all characters.
+	- Used for item descriptions
+- SM_TextSmall
+	- Supports all characters.
+	- Used for chat messages
+- SM_Text
+	- Supports all characters.
+	- Used for popup messages
+- SM_UserName
+	- Supports all characters.
+	- Used for usernames
+- SM_SearchText
+	- Supports all characters.
+- SM_ToolTipText
+	- Supports all characters.
+- SM_ButtonSmallBold
+	- Supports all characters.
+- SM_ListItem
+	- Supports all characters.
+	- Used for challenge names
+- SM_HeaderLarge_Medium
+	- Supports certain tags, not recommended for custom guis
+- SM_Button
+	- Supports certain tags, not recommended for custom guis
+- SM_ButtonTiny
+	- Supports certain tags, not recommended for custom guis
+- SM_TextLabel
+	- Supports all characters.
+- SM_LabelTiny
+	- Supports all characters.
+- SM_LabelMini
+	- Supports 0123456789
+- SM_SliderLabel
+	- Supports 0123456789
+- SM_NumberMini
+	- Supports 0123456789*
+- SM_HotbarBinding
+	- Supports all characters.
+- X_Hud_ItemStack
+	- Supports 0123456789
+- X_Hud_PlayerName
+	- Supports all characters.
+- X_Hud_Interaction
+	- Supports all characters.
+- X_Hud_Alert
+	- Supports all characters.
+- SM_IntlText
+	- Supports all characters.
+- SM_Digital
+	- Supports 0123456789:
+	
