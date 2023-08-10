@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 [← Back](../index.md)
 
 # Gui Lists

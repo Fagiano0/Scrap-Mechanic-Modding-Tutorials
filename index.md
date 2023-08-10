@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 [Github](https://github.com/Fagiano0/Scrap-Mechanic-Modding-Tutorials)
 <hr/>
 
