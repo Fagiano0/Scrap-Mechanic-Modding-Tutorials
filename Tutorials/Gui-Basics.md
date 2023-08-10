@@ -1,13 +1,13 @@
 [← Back](../index.md)
 
-# Gui Basics Tutorial
-*Tutorial by [Fagiano0](https://github.com/Fagiano0)*  
+# Gui Basics
+*Written by [Fagiano0](https://github.com/Fagiano0)*  
 In this tutorial you'll learn how to make a simple gui with a button that triggers code, while learning the basics in the process.
 
 ### CONTENTS:
-- [Installing MyGui Editor](Gui-Basics-Tutorial#installing-mygui-editor)
-- [Creating a Basic Gui](Gui-Basics-Tutorial#creating-a-basic-gui)
-- [Accessing Your Gui with Code](Gui-Basics-Tutorial#accessing-your-gui-with-code)
+- [Installing MyGui Editor](Gui-Basics#installing-mygui-editor)
+- [Creating a Basic Gui](Gui-Basics#creating-a-basic-gui)
+- [Accessing Your Gui with Code](Gui-Basics#accessing-your-gui-with-code)
 
 ## Installing MyGui Editor
 Before we can create our guis we're gonna need to install the MyGui editor.  
