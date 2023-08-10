@@ -1,5 +1,5 @@
 # Scrap Mechanic Modding Tutorials
-Here you can find tutorials for different Scrap Mechanic modding topics.
+Here you will find tutorials and guides to Scrap Mechanic modding.
 
 [Site](https://fagiano0.github.io/Scrap-Mechanic-Modding-Tutorials/)
 

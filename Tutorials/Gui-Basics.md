@@ -39,7 +39,8 @@ Again, for this tutorial we'll be making a gui with a button that triggers some 
 - Now that we're almost done switch back to the `Properties` tab and select one of the widgets you added, you'll see a `Position` property with a `pixels` button to the left of it, you can click it to change the position mode and repeat it for all your widgets.  
     > ***Note**: You can change the position mode of widgets from `pixels` to `%` anytime, sometimes working with widgets in `%` might be more difficult or lead to misalignments. It is recommended to make all your widgets' position modes `%` after you're done working on the gui. The `%` mode is needed to make guis work correctly with different screen resolutions.*
 
-    ![PositionModePixels](../Images/GuiBasicsTutorial/PositionModePixels.png) ![PositionMode%](../Images/GuiBasicsTutorial/PositionModePercent.png)
+    ![PositionModePixels](../Images/GuiBasicsTutorial/PositionModePixels.png)  
+    ![PositionMode%](../Images/GuiBasicsTutorial/PositionModePercent.png)
 - Great, now do `Ctrl`+`S` or press `File` and `Save` and navigate to your mod's folder, then save it somewhere in there. It is recommended to create a `Layouts` folder inside of the pre-existing `Gui` folder and save it there.
 
 ## Accessing Your Gui with Code
