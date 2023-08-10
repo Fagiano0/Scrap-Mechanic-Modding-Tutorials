@@ -5,7 +5,7 @@ description: >
   Here you will find tutorials and guides to Scrap Mechanic modding.
 remote_theme: abhinavs/moonwalk
 
-favicon: Images/favicon.ico
+favicon: "./favicon.ico"
 
 theme_config:
   appearance: "dark"
