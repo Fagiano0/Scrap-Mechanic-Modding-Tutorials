@@ -1,4 +1,4 @@
-<br/>
+<hr/>
 
 ### Tutorials:  
 - [Gui Basics](Tutorials/Gui-Basics.md): The basics of making guis for your mods.  
