@@ -34,7 +34,8 @@ Again, for this tutorial we'll be making a gui with a button that triggers some 
 - Now let's give our button a different look by changing its `Skin` to whatever you want, in my case I chose `Active Button` but you can choose whichever skin you want.  
     ![MyButtonSkin](../Images/GuiBasicsTutorial/MyButtonSkin.png) ![MyButtonSkinAndName](../Images/GuiBasicsTutorial/MyButtonSkinAndName.png)
 - To add text to it, scroll down to the `TextBox Properties` and give it a `Caption` and `FontName`, the others are optional.  
-    > ***Note**: The game doesn't load all characters for some fonts, unloaded characters will appear as* `⌧`.
+    > ***Note**: The game doesn't load all characters for some fonts, unloaded characters will appear as* `⌧`.  
+    A list of all fonts and their characters can be found [here](../Lists/Gui-Lists.md#fonts).
 
     ![MyButtonTextBoxProperties](../Images/GuiBasicsTutorial/MyButtonTextBoxProperties.png)
 - Now that we're almost done switch back to the `Properties` tab and select one of the widgets you added, you'll see a `Position` property with a `pixels` button to the left of it, you can click it to change the position mode and repeat it for all your widgets.  
