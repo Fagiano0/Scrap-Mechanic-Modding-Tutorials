@@ -17,9 +17,10 @@
     {% feed_meta %}
   
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ 'favicon.png' | relative_url }}">
+    <!-- Favicon -->
   
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
     {% if site.theme_config.appearance_toggle %}
       {% include toggle_theme_js.html %}
     {% endif %}
