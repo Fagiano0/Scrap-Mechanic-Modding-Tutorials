@@ -9,3 +9,7 @@ theme_config:
   appearance: "dark"
   appearance_toggle: true
   show_description: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
