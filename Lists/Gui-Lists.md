@@ -22,10 +22,11 @@ This list contains every widget available in Scrap Mechanic and its function.
 		- Highlighted
 		- Active
 - Canvas
-	- Used for rendering Mesh Previews
+	- Empty widget
+	- Can be used for rendering Mesh Previews
 - ComboBox
 	- Gives you a dropdown box with rewriteable text options  
-	![WidgetTab](../Images/GuiWidgetList/AddItems.png "Items Interface")
+	![ItemsInterface](../Images/GuiListsList/AddItems.png "Items Interface")
 - DDContainer
 	- *Possibly Drag & Drop container?*
 	> ***Note**: Doesnt work yet.*
@@ -33,13 +34,13 @@ This list contains every widget available in Scrap Mechanic and its function.
 	- Fancier version of TextBox
 	- Supports better formatting and multiline
 	- Text can be edited ingame, unless ReadOnly  
-	![WidgetTab](../Images/GuiWidgetList/ReadOnly.png "ReadOnly Option")
+	![ReadOnlyOption](../Images/GuiListsList/ReadOnly.png "ReadOnly Option")
 - ItemBox
 	- *Possibly related to Drag & Drop container?*
 	> ***Note**: Doesnt work yet.*
 - ListBox
 	- Lists all Items properties.  
-	![WidgetTab](../Images/GuiWidgetList/AddItems.png "Items Interface")
+	![ItemsInterface](../Images/GuiListsList/AddItems.png "Items Interface")
 - MenuBar
 	- Automatically creates buttons from its Item property
 	> ***Note**: Very limiting, lacks any SM-like skins. Mostly useless*
@@ -51,12 +52,11 @@ This list contains every widget available in Scrap Mechanic and its function.
 - ProgressBar
 	- Visualizes progression
 	- AutoTrack option works in Scrap Mechanic and makes it track infinitely  
-	![WidgetTab](../Images/GuiWidgetList/ProgressBar.png "ProgressBar Interface")
-	> ***Note**: It is impossible to set its position through Lua.*
+	![ProgressBarInterface](../Images/GuiListsList/ProgressBar.png "ProgressBar Interface")
+	> ***Note**: You can't interact with it through lua.*
 - ScrollBar
 	- Lets you scroll in its range  
-	![WidgetTab](../Images/GuiWidgetList/ProgressBar.png "ProgressBar Interface")
-	> ***Note**: You can only read its position from Lua.*
+	> ***Note**: You can only set its callback through lua.*
 - ScrollView
 	- Adds 2 Scrollbars, that let you move around its own viewport
 		- To set its size, use CanvasSize
@@ -70,7 +70,7 @@ This list contains every widget available in Scrap Mechanic and its function.
 	- Widget with multiple tabs that player can switch between
 	- Can have different widgets on every page
 	- Pages are added from the Items property  
-	![WidgetTab](../Images/GuiWidgetList/AddItems.png "Items Interface")
+	![ItemsInterface](../Images/GuiListsList/AddItems.png "Items Interface")
 - Widget
 	- Dummy Widget that only shows its Skin
 - Window
