@@ -1,3 +1,7 @@
+---
+title: "Gui Basics | SMMT"
+---
+
 [← Back](../index.md)
 
 # Gui Basics
