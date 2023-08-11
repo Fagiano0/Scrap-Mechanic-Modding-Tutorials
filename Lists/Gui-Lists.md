@@ -1,7 +1,3 @@
----
-layout: home
----
-
 [← Back](../index.md)
 
 # Gui Lists
