@@ -9,10 +9,10 @@ title: "Gui Basics | SMMT"
 In this tutorial you'll learn how to make a simple gui with a button that triggers code, while learning the basics in the process.
 
 ### CONTENTS:
-- [Installing MyGui Editor](Gui-Basics#installing-mygui-editor)
-- [Creating a Basic Gui](Gui-Basics#creating-a-basic-gui)
-- [Accessing Your Gui with Code](Gui-Basics#accessing-your-gui-with-code)
-- [General Advice](Gui-Basics#general-advice)
+- [Installing MyGui Editor](#installing-mygui-editor)
+- [Creating a Basic Gui](#creating-a-basic-gui)
+- [Accessing Your Gui with Code](#accessing-your-gui-with-code)
+- [General Advice](#general-advice)
 
 ## Installing MyGui Editor
 Before we can create our guis we're gonna need to install the MyGui editor.  

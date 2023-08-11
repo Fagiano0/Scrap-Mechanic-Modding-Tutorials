@@ -9,9 +9,9 @@ title: "Gui Lists | SMMT"
 This list contains most gui things.
 
 ### CONTENTS:
-- [Widget Types](Gui-Lists#widget-types)
-- [Lua Widget Types](Gui-Lists#lua-widget-types)
-- [Fonts](Gui-Lists#fonts)
+- [Widget Types](#widget-types)
+- [Lua Widget Types](#lua-widget-types)
+- [Fonts](#fonts)
 
 ## Widget Types
 This list contains every widget available in Scrap Mechanic and its function.
