@@ -2,9 +2,9 @@
 <hr/>
 
 ### Tutorials:  
-- [Gui Basics](Tutorials/GuiBasics/Gui-Basics.md): The basics of making guis for your mods.  
+- [Gui Basics](Tutorials/GuiBasics/index.md): The basics of making guis for your mods.  
 
 ### Lists:  
-- [Gui Lists](Lists/GuiLists/Gui-Lists.md): Lists related to guis.  
+- [Gui Lists](Lists/GuiLists/index.md): Lists related to guis.  
 
 <br/><br/><br/><br/><br/>

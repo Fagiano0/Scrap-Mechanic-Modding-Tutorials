@@ -2,7 +2,7 @@
 title: "Gui Basics | SMMT"
 ---
 
-[← Back](/index.md)
+[← Back](../../index.md)
 
 # Gui Basics
 *Written by [Fagiano0](https://github.com/Fagiano0)*  

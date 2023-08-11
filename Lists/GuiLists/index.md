@@ -2,7 +2,7 @@
 title: "Gui Lists | SMMT"
 ---
 
-[← Back](/index.md)
+[← Back](../../index.md)
 
 # Gui Lists
 *Written by [The Red Builder](https://github.com/TheRedBuilder) with contributions from [Fagiano0](https://github.com/Fagiano0)*  
