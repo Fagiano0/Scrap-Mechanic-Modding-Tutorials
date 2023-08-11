@@ -2,7 +2,7 @@
 title: "Gui Lists | SMMT"
 ---
 
-[← Back](../index.md)
+[← Back](/index.md)
 
 # Gui Lists
 *Written by [The Red Builder](https://github.com/TheRedBuilder) with contributions from [Fagiano0](https://github.com/Fagiano0)*  
@@ -26,7 +26,7 @@ This list contains every widget available in Scrap Mechanic and its function.
 	- Can be used for rendering Mesh Previews
 - ComboBox
 	- Gives you a dropdown box with rewriteable text options  
-	![ItemsInterface](../Images/GuiListsList/AddItems.png "Items Interface")
+	![ItemsInterface](Images/AddItems.png "Items Interface")
 - DDContainer
 	- *Possibly Drag & Drop container?*
 	> ***Note**: Doesnt work yet.*
@@ -34,13 +34,13 @@ This list contains every widget available in Scrap Mechanic and its function.
 	- Fancier version of TextBox
 	- Supports better formatting and multiline
 	- Text can be edited ingame, unless ReadOnly  
-	![ReadOnlyOption](../Images/GuiListsList/ReadOnly.png "ReadOnly Option")
+	![ReadOnlyOption](Images/ReadOnly.png "ReadOnly Option")
 - ItemBox
 	- *Possibly related to Drag & Drop container?*
 	> ***Note**: Doesnt work yet.*
 - ListBox
 	- Lists all Items properties.  
-	![ItemsInterface](../Images/GuiListsList/AddItems.png "Items Interface")
+	![ItemsInterface](Images/AddItems.png "Items Interface")
 - MenuBar
 	- Automatically creates buttons from its Item property
 	> ***Note**: Very limiting, lacks any SM-like skins. Mostly useless*
@@ -52,7 +52,7 @@ This list contains every widget available in Scrap Mechanic and its function.
 - ProgressBar
 	- Visualizes progression
 	- AutoTrack option works in Scrap Mechanic and makes it track infinitely  
-	![ProgressBarInterface](../Images/GuiListsList/ProgressBar.png "ProgressBar Interface")
+	![ProgressBarInterface](Images/ProgressBar.png "ProgressBar Interface")
 	> ***Note**: You can't interact with it through lua.*
 - ScrollBar
 	- Lets you scroll in its range  
@@ -70,7 +70,7 @@ This list contains every widget available in Scrap Mechanic and its function.
 	- Widget with multiple tabs that player can switch between
 	- Can have different widgets on every page
 	- Pages are added from the Items property  
-	![ItemsInterface](../Images/GuiListsList/AddItems.png "Items Interface")
+	![ItemsInterface](Images/AddItems.png "Items Interface")
 - Widget
 	- Dummy Widget that only shows its Skin
 - Window
@@ -89,11 +89,20 @@ Contains every Widget that must be created with Lua.
 	- Similar to ScrollBar Widget, but with improved functionality, at the cost of more skins
 	- Creation:
 	```lua
-		-- for horizontal slider, do:
-		self.gui:createHorizontalSlider("SliderHost", 100, 50, "cl_myFunction", true) -- change self.gui to your created gui, change "SliderHost" to the name of your Widget (Widget should be empty, with panelEmpty skin), change "cl_myFunction" to the name of the function that will receive its callback, change the first number (100) to the maximal value of the slider and the other number (50) to its starting value, the boolean (true) controls if the slider should be numbered
+		--[[
+			change "SliderHost" to the name of your Widget (should be empty, with panelEmpty skin)
+			change "cl_myFunction" to the name of the function that will receive its callback
+			change the first number (100) to the maximal value of the slider
+			change the other number (50) to its starting value
+		]]
+
+		-- for horizontal slider:
+		-- the boolean (true) controls if it should be numbered (exclusive to horiziontal)
+		guiInterface:createHorizontalSlider("SliderHost", 100, 50, "cl_myFunction", true)
 		
-		-- for vertical slider, do:
-		self.gui:createVerticalSlider("SliderHost", 100, 50, "cl_myFunction") -- change self.gui to your created gui, change "SliderHost" to the name of your Widget (Widget should be empty, with panelEmpty skin), change "cl_myFunction" to the name of the function that will receive its callback, change the first number (100) to the maximal value of the slider and the other number (50) to its starting value
+		
+		-- for vertical slider:
+		guiInterface:createVerticalSlider("SliderHost", 100, 50, "cl_myFunction")
 	```
 
 ## Fonts
