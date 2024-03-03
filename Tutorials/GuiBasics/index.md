@@ -16,7 +16,7 @@ In this tutorial you'll learn how to make a simple gui with a button that trigge
 
 ## Installing MyGui Editor
 Before we can create our guis we're gonna need to install the MyGui editor.  
-You can download a compiled version for Scrap Mechanic 0.6.x from __[here](https://drive.google.com/file/d/1URXmjUc9FogNdwKikct6otZ0N7tzWOC4/view?usp=sharing)__ (compiled and uploaded by [QuestionableMark](https://github.com/QuestionableM))
+You can download a compiled version for Scrap Mechanic 0.6.x from __[here](https://drive.google.com/file/d/1AaGa9NPEYirCnBwo0WCWI0psZKVD2Nd0/view?usp=sharing)__ (compiled and uploaded by [QuestionableMark](https://github.com/QuestionableM))
 
 Once you've installed and unzipped it, open the `release` folder inside of it and open `LayoutEditor.exe`, you can also create a shortcut for easy access to it.
 
