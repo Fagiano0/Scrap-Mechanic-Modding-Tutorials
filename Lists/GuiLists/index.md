@@ -110,93 +110,67 @@ All the fonts available including their supported characters.
 
 - All Characters
 	- Default
-	- SM_HeaderLarge_Medium
-	- SM_HeaderTiny
-	- SM_Button
-	- SM_SubHeader
-	- SM_Tab
-	- SM_TabSmall
-	- SM_ItemTitle
-	- SM_TextTiny
-	- SM_TextSmall
-	- SM_Text
-	- SM_UserName
+	- SM_Header
+	- SM_TextLabel
+	- SM_LabelTiny
 	- SM_SearchText
 	- SM_ToolTipText
+	- SM_Text
+	- SM_TextSmall
+	- SM_TextTiny
+	- SM_ItemTitle
+	- SM_ButtonTiny
 	- SM_ButtonSmallBold
+	- SM_UserName
 	- SM_ListItem
 	- SM_HotbarBinding
-	- SM_GameName
-	- X_Hud_PlayerName
-	- X_Hud_Interaction
-	- X_Hud_Alert
-	- X_Interactable_LogicGate_Category
 	- SM_IntlText
-	- SM_TextLabel
-	- SM_Label
-	- SM_LabelSmall
-	- SM_LabelTiny
-	- SM_ButtonTiny
-	- SM_NumberTiny
+	- X_Hud_Alert
+	- X_Hud_Interaction
+	- X_Hud_PlayerName
 	- DejaVuSansFontGenerated_13
 	- DejaVuSansFontGenerated_15
 	- DejaVuSansFontGenerated_28
-- Only Numbers
-	- SM_LabelMini
-	- SM_SliderLabel
-	- X_Hud_ItemStack
 - Other
-	- SM_Digital
-		- `0123456789:`
-	- SM_NumberHuge
-		- `0123456789:`
-	- SM_NumberMini
-		- `0123456789*`
-	- SM_NumberSmall
-		- `aAbBcCDeEfFGhHiIkKlLmMnNoOpPrRsStTuUvVwWXYZ0123456789-[]:!`
-	- HandbookPageCount
-		- `0123456789/`
-	- SM_ButtonLarge
-		- `ABCEFGHIKLMNOPRSTUX`
-	- SM_Header
-		- `aAbBcCdDeEfFgGhHiIJkKlLmMnNoOpPrRsStTuUvVwWxXyYZ0123456789/.!_?`
-	- SM_HeaderSmall
-		- `aAbBcCDeEfFGhHiIkKlLmMnNoOpPrRsStTuUvVwWXYZ0123456789-[]:!`
-	- SM_HeaderMedium
-		- `ABCDEGHILMNORSTUWY`
-	- SM_HeaderLarge_Narrow
-		- `aAbBcCdDeEfFgGhHiIJkKlLmMnNoOpPrRsStTuUvVwWxXyYZ0123456789/_\.,?!`
-	- SM_HeaderLarge_Wide
-		- `aAbBcCdDeEfFgGhHiIJkKlLmMnNoOpPrRsStTuUvVwWxXyYZ0123456789/_\.,?!`
-	- SM_HeaderXLarge_Wide
-		- `ADEFIMNOPRSTUV`
-	- SM_TextLarge
-		- `aAbBcCdDefFgGhijJklmMnopQrsStTuUvwyYzZ+.:,!`
-	- HandbookTitle
-		- `ABCDEFGHILMNOPQRSTUVWY`
-	- HandbookSubTitle
-		- `aAbBcCdeEfFghHiIjklLmMnNopPqQrRsStTuUvwWxyYz35+-().,?`
-	- HandbookSubTitleItalic
-		- `abcdeEfghiklLmnoprstTuvwxy.,!`
-	- HandbookDescriptionLarge
-		- `aAbBcCdefghiIklmnopPqrsStTuvwyz.,`
-	- HandbookDescriptionSmall
-		- `aAbBcCdefFghHijklmnopPqQrsStTuUvwWxyYz-.:,!`
-	- HandbooInstructionSmall
-		- `aAbBcCdDefghHijkKlLmnopPrRsStTuwWy`
-	- HandbookInstructionMedium
-		- `aAbcCdDeghHiIjJklLmMnoOpPrRsStuv`
-	- HandbookInstructionLarge
-		- `abBcCeHiIklmnoPrstuvy`
-	- HandbookLogicDescription
-		- `aAcdefghiklnorstvy`
-	- HandbookFAQQuestion
-		- `abcdefghHiIlmMnoOprstuvwWy,?!`
-	- HandbookFAQAnswer
-		- `aAbBcCdeEfFghHiIjklLmMnNopPqQrRsStTuUvwWxyYz35+-().,?`
-	- X_Interactable_Timer_TickCount
-		- `CIKST0123456789`
-	- X_Interactable_Timer_TimeUnit
-		- `MS`
-	- X_MenuGamemodeMenu_GameMode
-		- `ACEGHILNRSTUV`
+	- SM_HeaderXLarge_Wide: `ADEFIMNOPRSTUV`
+	- SM_HeaderLarge_Wide: `'ABCDEFGHIKLMNOPRSTUVWYZ`
+	- SM_HeaderLarge_Medium: `!",./0123456789?ABCDEFGHIJKLMNOPRSTUVWXYZ\_abcdefghiklmnoprstuvwxy“”`
+	- SM_HeaderLarge_Narrow: `ACDEGHMOS`
+	- SM_HeaderMedium: `ABCDEGHILMNORSTUWY`
+	- SM_SubHeader: `12345ACDEGILNORSTUVY\n`
+	- SM_HeaderSmall: `!01ABCEGILNOPRSTUXaceiklmnostuv`
+	- SM_HeaderTiny: `024:ABCDEGILMNOPRSTYemoprsu`
+	- SM_Tab: `ACDEGHILMNOPRSTUY`
+	- SM_TabSmall: `ABCDEIKLMNOPRSTUV`
+	- SM_Label: `0123456789:EIMQTestu`
+	- SM_LabelSmall: `DYabdegijmnoprstuwx`
+	- SM_LabelMini: `0123456789ACDEILORSTVW`
+	- SM_SliderLabel: `0123456789AFILMOSTWX`
+	- SM_TextLarge: `!+,.:ABCDFGIMQSTUYZabcdefghijklmnoprstuvwyz’`
+	- SM_TextDesc: `Sacehlnoprstw`
+	- SM_GameName: `CGNaeghlmn`
+	- SM_ButtonLarge: `ABCEFGHIKLMNOPRSTUX`
+	- SM_Button: `ABCDEFIKLMNOPRSTUVWXY`
+	- SM_ButtonSmall: `0123456789ABCDEFGHIKLMNOPRSTUVWXYZ[]abcefhiklmnoprstuw`
+	- SM_NumberHuge: `0123456789:°`
+	- SM_NumberSmall: `-0123456789:FNOTeim`
+	- SM_NumberTiny: `*+-/0123456789:`
+	- SM_NumberMini: `*/0123456789X`
+	- SM_Digital: `0123456789:`
+	- X_Interactable_Timer_TimeUnit: `MS`
+	- X_Interactable_Timer_TickCount: `0123456789CIKST`
+	- X_Interactable_LogicGate_Category: `BIacdeinrstv`
+	- X_MenuGamemodeMenu_GameMode: `ACEGHILNRSTUV`
+	- X_Hud_ItemStack: `0123456789`
+	- HandbookTitle: '`ABCDEFGHILMNOPQRSTUVWY`
+	- HandbookSubTitle: `&',-.35?ABCEFHILMNPRSTUWabcdefghijklmnopqrstuvwxy’•`
+	- HandbookSubTitleItalic: `!',.ELTabcdefghiklmnoprstuvwxy`
+	- HandbookPageCount: `/0123456789`
+	- HandbookDescriptionLarge: `,.ABCIPSTabcdefghiklmnopqrstuvwyz`
+	- HandbookDescriptionSmall: `!,-.:ABCEFHPQSTUWYabcdefghijklmnopqrstuvwxyz’`
+	- HandbookInstructionLarge: `BCHIPabceiklmnorstuvy`
+	- HandbookInstructionMedium: `/ACDHIJLMOPRSabcdeghijklmnoprstuv`
+	- HandbookInstructionSmall: `ABCDHKLPRSTWabcdefghijklmnoprstuwy`
+	- HandbookLogicDescription: `Aacdefghiklnorstvy`
+	- HandbookFAQQuestion: `!,?HIMOWabcdefghilmnoprstuvwy`
+	- HandbookFAQAnswer: `"()+,.ABHILMQRSTWYabcdefghiklmnoprstuvwyz`
