@@ -106,7 +106,7 @@ Contains every Widget that must be created with Lua.
 	```
 
 ## Fonts
-All the fonts available including their supported characters.
+All the fonts available including their supported characters. (Note this only applies to English)
 
 - All Characters
 	- Default
